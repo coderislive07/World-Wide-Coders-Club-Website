@@ -1,0 +1,420 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.top-panel
+{
+    width:100%;
+    height:100vh;
+    background-image:url("booklogo.jpg");
+    background-repeat:no-repeat;
+    background-size:1000px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position:relative;
+}
+.overlay
+{
+    width:100%;
+    height:100vh;
+    background-color:blueviolet;
+    position:absolute;
+    opacity:0.5;
+}
+.content2 p
+{
+    color:black;
+    font-weight:600;
+    font-size:30px;
+    margin-left:450px;
+    margin-top:50px;
+    position:absolute;
+}
+.content2 h1
+{
+    color:black;
+    font-weight:600;
+    font-size:60px;
+    margin-left:180px;
+    margin-top:150px;
+    position:absolute;
+}
+.content1 
+{
+    display:flex;
+    justify-content:space-between;
+}
+.logo
+{
+    display:flex;
+}
+.logo img
+{
+    border-radius:50%;
+}
+.logo a
+{
+    color:#1f1f38;
+    margin-top:0px;
+    text-decoration: none;
+    font-size:30px;
+    margin-left:350px;
+    font-weight:400;
+    position:absolute;
+    
+}
+.logo a:hover
+{
+    opacity:0.7;
+}
+.a1 
+{
+    text-decoration: none;
+    font-size:30px;
+    position:absolute;
+    margin-left:-110px;
+    color:#1f1f38;
+    font-weight:400;
+
+}
+.a1:hover
+{
+    opacity:0.7; 
+}
+.a2
+{
+    text-decoration: none;
+    font-size:30px;
+    position:absolute;
+    margin-left:-145px;
+    color:#1f1f38;
+    font-weight:400;
+}
+.a2:hover
+{
+    opacity:0.7; 
+}
+.a3
+{
+    text-decoration: none;
+    font-size:30px;
+    position:absolute;
+    margin-left:-135px;
+    color:#1f1f38;
+    font-weight:400;
+}
+.a3:hover
+{
+    opacity:0.7; 
+}
+.btn1
+{
+    background-color:#1f1f38;
+  font-size:35px;
+  margin-left:650px;
+  margin-top:262px;
+  font-weight:500;
+  color:white;
+  border-color:transparent;
+  padding:10px; 
+  border-radius:15px;
+  cursor: pointer; 
+  position:absolute;
+}
+.btn1:hover
+{
+  border-color:blue;
+  background-color: rgb(44, 43, 43);
+  transform: scaleX(1.1);
+  transition: 0.4s;
+}
+.openings
+{
+        background-color:#fff;
+        height:20vh;
+        width:100%;
+}
+.openings h1
+{
+    text-align:center;
+    margin-top:100px;
+    color:rgb(22, 21, 21);
+    font-size:60px;
+}
+.openings p
+{
+    text-align:center;
+    margin-top:10px;
+    font-weight:600;
+    font-size:20px;
+    font-weight:400;
+}
+hr
+{
+    width:100%;
+    height:4px;
+    margin-top:46px;
+    background-color:black;
+}
+.graphics h1
+{
+    margin-top:50px;
+    margin-left:200px;
+    
+}
+.graphics-positions
+{
+    height:400px;
+    width:100%;
+    display: flex;
+}
+.graphics-position1
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+margin-left:130px;
+cursor:pointer;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.graphics-position1:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.graphics-position1 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.graphics-position2
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+margin-left:130px;
+cursor:pointer;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.graphics-position2 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.graphics-position2:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.media h1
+{
+    margin-top:-90px;
+    margin-left:200px;
+    
+}
+.media-positions
+{
+    height:400px;
+    width:100%;
+    margin-top:-20px;
+    display: flex;
+}
+.media-position1
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+margin-left:130px;
+cursor:pointer;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.media-position1 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.media-position1:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.media-position2
+{
+width:300px;
+height:150px;
+cursor:pointer;
+border:2px solid black;
+border-radius:15px;
+margin-left:130px;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.media-position2 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.media-position2:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.outreach h1
+{
+    margin-top:-90px;
+    margin-left:200px;
+    
+}
+.outreach-positions
+{
+    height:400px;
+    width:100%;
+    margin-top:-20px;
+    display: flex;
+}
+.outreach-position1
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+cursor:pointer;
+margin-left:130px;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.outreach-position1 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.outreach-position1:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.outreach-position2
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+cursor:pointer;
+margin-left:130px;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.outreach-position2 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.outreach-position2:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.content-position2:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.content h1
+{
+    margin-top:-90px;
+    margin-left:200px;
+    
+}
+.content-positions
+{
+    height:400px;
+    width:100%;
+    margin-top:-20px;
+    display: flex;
+}
+.content-position1
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+cursor:pointer;
+margin-left:130px;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+}
+.content-position1 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.content-position1:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.content-position2
+{
+width:300px;
+height:150px;
+border:2px solid black;
+border-radius:15px;
+margin-left:130px;
+border-color:rgb(57, 57, 97);
+margin-top:50px;
+cursor:pointer;
+}
+.content-position2 p
+{
+    text-align:center;
+    margin-top:30px;
+    line-height:30px;
+}
+.content-position2:hover
+{
+    background-color:rgb(236, 234, 234);  
+}
+.visit
+{
+    width:100%;
+    height:50px;
+    border:2px solid rgb(178, 173, 173);
+    position:relative;
+    background-color:rgb(204,204,204);
+}
+.visit a
+{
+    text-decoration:none;
+    color:orange;
+    margin-left:50%;
+    text-align:center;
+    font-size:20px;
+    position:absolute;
+    margin-top:10px;
+}
+.powered-by
+{
+    width:100%;
+    height:50px;
+    background-color:rgb(222, 215, 215);
+}
+.powered-by h1
+{
+    margin-left: 45%;
+    font-size:30px;
+    color:rgb(82, 80, 80);
+    padding:10px;
+}
